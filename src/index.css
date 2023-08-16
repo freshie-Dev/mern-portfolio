@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* padding: 0% 10% ; */
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100vh;
+  background-image: url("./assets/backgroundFinal.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+.aboutContainer {
+  box-shadow: inset 0px 0px 1px 0.5px rgb(87, 87, 87); /* Replace with your desired RGB values */
+}
+.outlineText {
+  -webkit-text-stroke: 1px black;
+}
+.font-1 {
+  font-family: "Cinzel Decorative", cursive;
+}
+.font-2 {
+  font-family: "jungle", serif;
+}
+.top {
+  z-index: 999;
+}
+::placeholder {
+  color: red;
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: red;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+.blurBG {
+  /* blur background */
+  background: rgba(0, 0, 0, 0.5);
+}
+.navShadow {
+  box-shadow: 0px 11px 54px -7px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0px 11px 54px -7px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 11px 54px -7px rgba(0, 0, 0, 0.9);
+}

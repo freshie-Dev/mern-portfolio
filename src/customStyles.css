@@ -1,0 +1,4 @@
+.disappear {
+    transition: opacity 0.1s ease-in;
+    opacity: 0;   
+}
